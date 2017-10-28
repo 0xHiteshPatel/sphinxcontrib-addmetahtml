@@ -16,7 +16,9 @@ Manual
 ~~~~~~
 
 ``git clone https://github.com/0xHiteshPatel/sphinxcontrib-addmetahtml.git``
+
 ``cd sphinxcontrib-addmetahtml``
+
 ``python setup.py install``
 
 pip requirements.txt
@@ -45,8 +47,7 @@ Examples
 Add Google Analytics ID
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-.. code-block:: python
-   :linenos:
+.. code::
 
    addmetahtml_content = """<script async src="https://www.googletagmanager.com/gtag/js?id=UA-0000000-0"></script>
    <script>
