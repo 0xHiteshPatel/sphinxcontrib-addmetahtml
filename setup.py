@@ -7,7 +7,7 @@ requires = ['Sphinx>=1.6']
 
 setup(
     name='sphinxcontrib-addmetahtml',
-    version='0.1',
+    version='0.1.1',
     url='https://github.com/0xHiteshPatel/sphinxcontrib-addmetahtml',
     download_url='http://pypi.python.org/pypi/sphinxcontrib-addmetahtml',
     license='BSD',
