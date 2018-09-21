@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from sphinx.application import ExtensionError
+from sphinx.errors import ExtensionError
 
 def insert_content(app, pagename, templatename, context, doctree):
     if not app.config.addmetahtml_enabled:
@@ -23,5 +23,5 @@ def setup(app):
 
     return
     {
-        'version': '0.1'
+        'version': '0.1.1'
     }
